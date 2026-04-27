@@ -8,12 +8,19 @@ Retrieve vessel information using vessel ID
 Identify high-performance vessels based on speed
 Apply clean OOPS design principles
 Use Cases Implemented
+
 UC1: Create Vessel Model
+
 UC2: Store Vessel Records using List
+
 UC3: Retrieve Vessel by Vessel ID
+
 UC4: Identify High Performance Vessels
+
 UC5: Console-Based User Interaction
+
 UC6: Refactor using OOPS Principles
+
 Version Control
 Git Flow methodology followed
 Feature-based branching
