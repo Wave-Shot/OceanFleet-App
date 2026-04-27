@@ -14,4 +14,14 @@ public class VesselUtil {
     public List<Vessel> getAllVessels() {
         return vesselList;
     }
+
+    public Vessel getVesselById(String vesselId) {
+        for (int i = 0; i < vesselList.size(); i++) {
+            Vessel v = vesselList.get(i);
+            if (v.getVesselId().equals(vesselId)) {
+                return v;
+            }
+        }
+        return null;
+    }
 }
